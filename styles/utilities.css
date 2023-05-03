@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 10%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.flex-row {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+.flex-col {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.between {
+    justify-content: space-between;
+}

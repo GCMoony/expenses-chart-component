@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+
+    --dark-brown:  hsl(25, 47%, 15%);
+    --medium-brown:  hsl(27, 66%, 53%);
+    --cream:  hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+
+    --font-family: "DM Sans", Verdana, sans-serif;
+    --font-size: 1.125rem;
+    --font-heavy: 700;
+    --font-light: 400;
+}
+
+
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--cream);   
+    
+}
+
+
+
+
+/*Expense Report*/
+.expense-report {
+    padding: 1em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.expense-report * {
+    font-size: var(--font-size);
+    font-weight: var(--font-light);
+}
+
+.expense-report > div {
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.expense-report > div:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+/*Report Header*/
+.report-header {
+    background-color: var(--soft-red);
+    color: white;
+}
+
+.report-header > h2 {
+    margin: none;
+    padding: none;
+}
+
+
+/*Report Content*/
+.report-content {
+    background-color: white;
+    color: var(--dark-brown);
+}
+
+.datapoint > p, .report-content h2:not(.font-heavy) {
+    opacity: 70%;
+}
+
+.report-content > hr {
+    border: solid var(--very-pale-orange);
+}
+
+.font-heavy {
+    font-weight: var(--font-heavy);
+   
+}
+
+.font-big {
+    font-size: x-large;
+}

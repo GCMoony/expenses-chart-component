@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/utilities.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+  <header style="display: none;">
+    <h1>GC Tools</h1>
+    <nav>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a>Tools</a></li>
+        <li><a>About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="expense-report">
+      <div class="report-header flex-row between">
+        <div class="">
+          <h2>My balance</h2>
+          <p class="font-heavy font-big">$921.48</p>
+        </div>
+        <img src="images/logo.svg" alt="card logo" />
+      </div>
+
+      <div class="report-content">
+        <h2 class="font-heavy font-big">Spending - Last 7 days</h2>
+
+        <div class="report-chart flex-row between">
+          <div class="datapoint flex-col"><div class="data"></div><p>mon</p></div>
+          <div class="datapoint flex-col"><div class="data"></div><p>tue</p></div>
+          <div class="datapoint flex-col"><div class="data"></div><p>wed</p></div>
+          <div class="datapoint flex-col"><div class="data"></div><p>thu</p></div>
+          <div class="datapoint flex-col"><div class="data"></div><p>fri</p></div>
+          <div class="datapoint flex-col"><div class="data"></div><p>sat</p></div>
+          <div class="datapoint flex-col"><div class="data"></div><p>sun</p></div>
+        </div>
+
+        <hr>
+        <div class="report-summary flex-row between ">
+          <div class="flex-col left">
+            <h2>Total this month</h2>
+            <p class="font-heavy font-big">$478.33</p>
+          </div>
+
+          <div class="flex-col right">
+            <p class="font-heavy">+2.4%</p>
+            <h2>from last month</h2>
+          </div>
+        </div>
+      </div> 
+    </section>    
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+</body>
+</html>

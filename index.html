@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/utilities.css">
+  <script src="scripts/script.js" defer></script>
   
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
@@ -36,14 +37,15 @@
       <div class="report-content">
         <h2 class="font-heavy font-big">Spending - Last 7 days</h2>
 
-        <div class="report-chart flex-row between">
-          <div class="datapoint flex-col"><div class="data"></div><p>mon</p></div>
-          <div class="datapoint flex-col"><div class="data"></div><p>tue</p></div>
-          <div class="datapoint flex-col"><div class="data"></div><p>wed</p></div>
-          <div class="datapoint flex-col"><div class="data"></div><p>thu</p></div>
-          <div class="datapoint flex-col"><div class="data"></div><p>fri</p></div>
-          <div class="datapoint flex-col"><div class="data"></div><p>sat</p></div>
-          <div class="datapoint flex-col"><div class="data"></div><p>sun</p></div>
+        <div id="report-chart" class="report-chart">
+          <!--
+           <div class="datapoint flex-col">
+            <p class=" font-heavy data-value">Numbah</p>
+            <div class="data" style="height: 80%"></div> 
+            <p>Ex</p>
+          </div>
+          -->
+          
         </div>
 
         <hr>

@@ -30,6 +30,7 @@ body {
 .expense-report {
     padding: 1em;
     max-width: 700px;
+    min-width: fit-content;
     margin: 0 auto;
 }
 
@@ -73,6 +74,56 @@ body {
     border: solid var(--very-pale-orange);
 }
 
+.report-chart {
+    height: 25vh;
+    display: flex;
+    gap: 1em;
+    justify-content: space-evenly;
+}
+
+.datapoint {
+    justify-content: flex-end;
+    gap: none;
+    
+}
+
+.datapoint > * {
+    max-height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.data {
+    background-color: var(--soft-red);
+    border-radius: 5px;
+    min-width: 100%;
+}
+
+.data:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.data-highest {
+    background-color: var(--cyan);
+}
+
+.data-value {
+    background-color: var(--dark-brown);
+    color: white;
+    padding: 5px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+
+/* Other */
 .font-heavy {
     font-weight: var(--font-heavy);
    
@@ -81,3 +132,4 @@ body {
 .font-big {
     font-size: x-large;
 }
+

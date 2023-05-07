@@ -6,7 +6,7 @@
 This is my attempt at coding the Frontend Mentor challenge, found here:
 * https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt/hub
 
+[Here's  the link to the preview on Netlify](https://gcmoony-expenses-chart-component.netlify.app/)
+
 Things left to do: 
-* Read data from json file
-* Test component resizing
-* Implement data, sample or actual
+* Test component resizing (currently does not resize well)
